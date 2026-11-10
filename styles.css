@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surf Glossary | SurfStart</title>
+    <meta name="description" content="Learn common surfing terms like whitewater, rip current, barrel, and pop-up." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">SurfStart</a>
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="guide.html">Beginner Guide</a>
+          <a href="gear.html">Gear</a>
+          <a href="safety.html">Safety</a>
+          <a href="glossary.html" class="active">Glossary</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero glossary-hero">
+        <div class="container narrow">
+          <p class="eyebrow">Surf language</p>
+          <h1>Common surfing terms</h1>
+          <p>
+            New surfers pick up language quickly once they start watching the ocean and other riders. Here are the most helpful words to know.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container card-grid two-col">
+          <article class="term-card">
+            <h3>Whitewater</h3>
+            <p>Small, broken waves near shore. This is where beginners usually start learning to catch waves.</p>
+          </article>
+          <article class="term-card">
+            <h3>Pop-up</h3>
+            <p>The movement from lying on the board to standing up in one fluid motion.</p>
+          </article>
+          <article class="term-card">
+            <h3>Set</h3>
+            <p>A group of waves arriving together, usually larger than the smaller waves in between.</p>
+          </article>
+          <article class="term-card">
+            <h3>Offshore wind</h3>
+            <p>Wind blowing from land toward the sea. It often makes the wave face cleaner and more organized.</p>
+          </article>
+          <article class="term-card">
+            <h3>Rip current</h3>
+            <p>A narrow current moving away from shore. It can be dangerous if you don’t know how to handle it.</p>
+          </article>
+          <article class="term-card">
+            <h3>Lineup</h3>
+            <p>The area in the water where surfers wait for waves to approach.</p>
+          </article>
+          <article class="term-card">
+            <h3>Barrel</h3>
+            <p>A wave that curls over the surfer, creating a hollow tube shape.</p>
+          </article>
+          <article class="term-card">
+            <h3>Drop-in</h3>
+            <p>Paddling into a wave that someone else is already surfing. It is usually considered poor etiquette.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 SurfStart</p>
+        <div class="footer-links">
+          <a href="guide.html">Guide</a>
+          <a href="gear.html">Gear</a>
+          <a href="safety.html">Safety</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
